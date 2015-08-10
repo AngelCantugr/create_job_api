@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   namespace :api do
-    resource :create_job, only =>
+    resources :create_jobs, only:  [:new]
   end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
